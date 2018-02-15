@@ -1,0 +1,37 @@
+
+###############################
+-> Installing TensorFlow on Ubuntu 
+These instructions on machines meeting the following requirements:
+
+    1. 64-bit desktops or laptops
+    2. Ubuntu 14.04 or higher
+################################################    
+-> Determine which TensorFlow to install
+
+You must choose one of the following types of TensorFlow to install:
+
+1. TensorFlow with CPU support only.
+    If your system does not have a NVIDIA® GPU, you must install this version. 
+    Note that this version of TensorFlow is typically much easier to install (typically, in 5 or 10 minutes),
+    so even if you have an NVIDIA GPU, we recommend installing this version first.
+2. TensorFlow with GPU support.
+  TensorFlow programs typically run significantly faster on a GPU than on a CPU.
+  Therefore, if your system has a NVIDIA® GPU meeting the prerequisites shown 
+  below and you need to run performance-critical applications, you should ultimately install this version.
+###########################################################
+-> Install TensorFlow by invoking one of the following commands:
+
+$ pip install tensorflow      # Python 2.7; CPU support (no GPU support)
+$ pip3 install tensorflow     # Python 3.n; CPU support (no GPU support)
+$ pip install tensorflow-gpu  # Python 2.7;  GPU support
+$ pip3 install tensorflow-gpu # Python 3.n; GPU support 
+
+For more information :- 
+https://www.tensorflow.org/install/install_linux
+https://medium.com/@vivek.yadav/deep-learning-setup-for-ubuntu-16-04-tensorflow-1-2-keras-opencv3-python3-cuda8-and-cudnn5-1-324438dd46f0
+  
+  
+  
+   
+ 
+
